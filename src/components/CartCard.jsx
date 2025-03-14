@@ -9,7 +9,7 @@ const CartCard = ({ id, name, photo, rate, price, type, count }) => {
       {/* Image Section */}
       <div className="h-[60%] w-full flex justify-center items-center overflow-hidden">
         <img
-          src={photo}
+          src={`https://backendproject-xywk.onrender.com${photo}`}
           alt={`${name}`}
           className="object-cover w-full h-full"
         />
