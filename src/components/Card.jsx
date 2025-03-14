@@ -17,7 +17,7 @@ const Card = () => {
             {/* Image Container */}
             <div className="h-[250px] w-full overflow-hidden">
               <img
-                src={each.photo}
+                 src={`https://backendproject-xywk.onrender.com${each.photo}`}
                 alt={each.name}
                 className="w-full h-full object-cover"
               />

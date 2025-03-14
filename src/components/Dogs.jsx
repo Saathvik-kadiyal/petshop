@@ -29,7 +29,7 @@ const Dogs = () => {
             {/* Image Section */}
             <div className="h-56 w-full flex justify-center items-center overflow-hidden">
               <img
-                src={each.photo}
+                 src={`https://backendproject-xywk.onrender.com${each.photo}`}
                 alt={each.name}
                 className="object-cover w-full h-full max-w-full"
               />

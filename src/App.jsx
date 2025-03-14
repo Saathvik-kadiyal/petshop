@@ -38,8 +38,8 @@ function App() {
 
   const fetchUserData = async () => {
     try {
-      const response = await axios.get("https://petscommerce.vercel.app/db.json");
-      setPets(response.data);
+      const response = await axios.get("https://backendproject-xywk.onrender.com/api/pets");
+      setPets(response.data.data);
     } catch (err) {
       console.log(err);
     }
