@@ -38,7 +38,7 @@ function App() {
 
   const fetchUserData = async () => {
     try {
-      const response = await axios.get("/db.json");
+      const response = await axios.get("https://petscommerce.vercel.app/db.json");
       setPets(response.data);
     } catch (err) {
       console.log(err);
