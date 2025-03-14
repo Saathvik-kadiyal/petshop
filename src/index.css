@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: Gobold;
+  src: url(./assets/Gobold.otf);
+}
+@font-face{
+  font-family: Lowplus;
+  src: url(./assets/Lowplus.otf);
+}
+@font-face{
+  font-family: Italica;
+  src: url(./assets/Italic.otf);
+}
+@font-face{
+  font-family: hollow;
+  src: url(./assets/Hollow.otf);
+}
+@font-face{
+  font-family: gotham;
+  src: url(./assets/GothamLigth.otf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,21 @@
+.card{
+    animation: cardanimate 1s ease-in-out;
+}
+@keyframes cardanimate{
+    0%{
+        opacity: 0;
+        transform: scale(0) translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+.li{
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+.li:hover{
+    transform: scale(1.2);
+    background-color: rgb(30, 122, 222);
+    color: white;
+}
