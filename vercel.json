@@ -1,9 +1,8 @@
 {
-    "routes": [
-      {
-        "src": "/db.json",
-        "dest": "/public/db.json"
-      }
-    ]
-  }
-  
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
